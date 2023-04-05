@@ -5,7 +5,7 @@
   "main": "generate.js",
   "scripts": {
     "dev": "json-server --watch db.json --port 3004",
-    "generate": "json-server generate.js"
+    "dev:fake": "json-server generate.js"
   },
   "keywords": [],
   "author": "",
