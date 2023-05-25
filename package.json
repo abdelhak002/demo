@@ -4,7 +4,7 @@
   "description": "",
   "main": "generate.js",
   "scripts": {
-    "dev": "json-server --watch db.json --port 3004",
+    "dev": "npx json-server --host 0.0.0.0 --watch db.json --port 3004",
     "dev:fake": "json-server generate.js"
   },
   "keywords": [],

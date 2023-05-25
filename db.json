@@ -52,44 +52,34 @@
   "products": [
     {
       "id": 1,
-      "name": "Carrots",
+      "name": "Abactin",
       "description": "Freshly harvested carrots",
       "price": 20.99,
+      "likes":127,
       "company_id": 1
     },
     {
       "id": 2,
-      "name": "Tomatoes",
+      "name": "NPK.15.15.15",
       "description": "Ripe, juicy tomatoes",
       "price": 12.49,
+      "likes":19,
       "company_id": 2
     },
     {
       "id": 3,
-      "name": "Potatoes",
+      "name": "Amistar",
       "description": "Golden potatoes",
       "price": 4.99,
+      "likes":52,
       "company_id": 1
     },
     {
       "id": 4,
-      "name": "Apples",
+      "name": "Seeds",
       "description": "Crisp, juicy apples",
       "price": 3.99,
-      "companyId": 2
-    },
-    {
-      "id": 5,
-      "name": "Oranges",
-      "description": "Sweet oranges",
-      "price": 2.49,
-      "companyId": 2
-    },
-    {
-      "id": 6,
-      "name": "Bananas",
-      "description": "Yellow bananas",
-      "price": 0.99,
+      "likes":103,
       "companyId": 2
     }
   ],
@@ -105,13 +95,13 @@
       "items": [
         {
           "product_id": 1,
-          "quantity": 5,
-          "price": 20.99
+          "total_quantity":12,
+          "total_amount":20
         },
         {
           "product_id": 3,
-          "quantity": 10,
-          "price": 4.99
+          "total_quantity":12,
+          "total_amount":20
         }
       ]
     },
@@ -126,8 +116,8 @@
       "items": [
         {
           "product_id": 2,
-          "quantity": 2,
-          "price": 12.49
+          "total_quantity":12,
+           "total_amount":20
         }
       ]
     }
