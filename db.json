@@ -60,7 +60,7 @@
     },
     {
       "id": 2,
-      "name": "NPK.15.15.15",
+      "name": "NPK.15.15",
       "description": "Ripe, juicy tomatoes",
       "price": 12.49,
       "likes":19,
@@ -76,7 +76,7 @@
     },
     {
       "id": 4,
-      "name": "Cucumber Seeds",
+      "name": "Cucumber",
       "description": "Crisp, juicy apples",
       "price": 3.99,
       "likes":103,
