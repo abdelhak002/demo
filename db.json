@@ -1,21 +1,5 @@
 {
   "users": [],
-  "customers": [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "email": "johnsmith@example.com",
-      "address": "123 Main St",
-      "phone": "555-1234"
-    },
-    {
-      "id": 2,
-      "name": "Jane Smith",
-      "email": "janedoe@example.com",
-      "address": "456 Elm St",
-      "phone": "555-5678"
-    }
-  ],
   "suppliers": [
     {
       "id": 1,
