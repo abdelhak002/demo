@@ -4,7 +4,7 @@
   "description": "",
   "main": "generate.js",
   "scripts": {
-    "dev": "npx json-server --host 0.0.0.0 --watch db.json --port 3004",
+    "dev": "npx json-server --watch db.json --port 3004 -m ./node_modules/json-server-auth",
     "dev:fake": "json-server generate.js"
   },
   "keywords": [],
@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
+    "json-server-auth": "^2.1.0",
     "lodash": "^4.17.21"
   }
 }
