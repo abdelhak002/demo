@@ -1,4 +1,5 @@
 {
+  "users": [],
   "customers": [
     {
       "id": 1,
@@ -55,7 +56,7 @@
       "name": "Abactin",
       "description": "Freshly harvested carrots",
       "price": 20.99,
-      "likes":127,
+      "likes": 127,
       "company_id": 1
     },
     {
@@ -63,7 +64,7 @@
       "name": "NPK.15.15.15",
       "description": "Ripe, juicy tomatoes",
       "price": 12.49,
-      "likes":19,
+      "likes": 19,
       "company_id": 2
     },
     {
@@ -71,7 +72,7 @@
       "name": "Amistar",
       "description": "Golden potatoes",
       "price": 4.99,
-      "likes":52,
+      "likes": 52,
       "company_id": 1
     },
     {
@@ -79,7 +80,7 @@
       "name": "Cucumber Seeds",
       "description": "Crisp, juicy apples",
       "price": 3.99,
-      "likes":103,
+      "likes": 103,
       "companyId": 2
     }
   ],
@@ -95,13 +96,13 @@
       "items": [
         {
           "product_id": 1,
-          "total_quantity":12,
-          "total_amount":20
+          "total_quantity": 12,
+          "total_amount": 20
         },
         {
           "product_id": 3,
-          "total_quantity":12,
-          "total_amount":20
+          "total_quantity": 12,
+          "total_amount": 20
         }
       ]
     },
@@ -116,8 +117,8 @@
       "items": [
         {
           "product_id": 2,
-          "total_quantity":12,
-           "total_amount":20
+          "total_quantity": 12,
+          "total_amount": 20
         }
       ]
     }
