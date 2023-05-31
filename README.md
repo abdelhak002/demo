@@ -74,3 +74,53 @@ Deletes a resource by id
 ```js
 DELETE /api/<resources>/:id
 ```
+
+## Authentication
+
+### Register
+
+Data to use for register
+
+```json
+{
+  "name": "Admin",
+  "email": "admin@gmail.com",
+  "password": "admin"
+}
+```
+
+Endpoint, returns a token that is used to authenticate the user
+
+```https
+POST /api/register
+```
+
+### Login
+
+Data to use for login
+
+```json
+{
+  "email": "admin@gmail.com",
+  "password": "admin"
+}
+```
+
+Endpoint, returns a token that is used to authenticate the user
+
+```https
+POST /api/login
+```
+
+Response example for login and register
+
+```json
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "user": {
+    "id": 1,
+    "name": "Admin",
+    "email": "admin@gmail.com"
+  }
+}
+```
